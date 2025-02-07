@@ -1,11 +1,11 @@
 import React from 'react'
 import './App.css'
-import './build/buildLX.jsx'
+import LXbuild from './Build/LXbuild'
 
 function App() {
   return (
     <>
-      
+    <LXbuild/>
     </>
   )
 }
