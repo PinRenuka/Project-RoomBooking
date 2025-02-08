@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Build = () => {
+const BuildingSIT = () => {
   return (
     <div className='h-screen bg-[url(public/img/Pic-sit.png)] bg-cover bg-center'>
 
@@ -8,4 +8,4 @@ const Build = () => {
   )
 }
 
-export default Build
+export default BuildingSIT
