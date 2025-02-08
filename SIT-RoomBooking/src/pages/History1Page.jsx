@@ -4,7 +4,7 @@ import Backja from '../components/Backja'
 const History1Page = () => {
   return (
     <>
-     <div className='h-screen bg-[url(./img/Pic-lx.jpg)] bg-cover bg-center'>
+     <div className='h-screen bg-[url(./img/PicLX.jpg)] bg-cover bg-center'>
         <div className='h-full grid place-items-center border-4'> 
            
               <div className='flex items-center justify-center gap-8 mx-auto p-8  bg-white w-3/5  rounded-4xl border-black border-1'>

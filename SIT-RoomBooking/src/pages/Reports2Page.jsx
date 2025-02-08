@@ -1,4 +1,5 @@
 import React from 'react'
+import Backtotab2 from '../Components/Backtotab2'
 
 const Reports2Page = () => {
   return (
@@ -10,7 +11,7 @@ const Reports2Page = () => {
       <div className='text-red-500 font-bold '>
         <div className='text-4xl'>Room Booking not Success</div> <br />
         <div className='text-2xl'>  This room can't booking because it booking already</div> <br />
-        
+        <Backtotab2 />
         </div>
          
       </div>

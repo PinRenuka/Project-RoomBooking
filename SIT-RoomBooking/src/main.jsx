@@ -9,6 +9,7 @@ import PickingPage from './pages/PickingPage.jsx'
 import History1Page from './pages/History1Page.jsx'
 import ReportsPage from './pages/ReportsPage.jsx'
 import Reports2Page from './pages/Reports2Page.jsx'
+import BuildingSIT from './pages/BuildingSIT.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -22,6 +23,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/reports" element={<ReportsPage />} />
       <Route path="/reports2" element={<Reports2Page />} />
       <Route path="/help" element={<HelpPage />} />
+      <Route path="/buildingsit" element={<BuildingSIT />} />
       
     
 

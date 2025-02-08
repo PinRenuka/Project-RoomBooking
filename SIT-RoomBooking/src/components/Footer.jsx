@@ -1,22 +1,20 @@
 import React from "react";
+import Lecbutt from "./Lecbutt";
+import Stabutt from "./Stabutt";
+import Stubutt from "./Stubutt";
+import Lfbutt from "./Lfbutt";
+
+
 
 export default function Footer() {
   return (
     <footer className="w-full bg-slate-900 text-white px-4 py-6  ">
       
       <div className="flex flex-wrap gap-2 mb-6 justify-center">
-        <button className="px-6 py-2 rounded-full bg-[#FFB5B5] text-black hover:opacity-90 transition-opacity">
-          Lecture
-        </button>
-        <button className="px-6 py-2 rounded-full bg-[#B8E5B5] text-black hover:opacity-90 transition-opacity">
-          Staff
-        </button>
-        <button className="px-6 py-2 rounded-full bg-[#FFE5A5] text-black hover:opacity-90 transition-opacity">
-          Student
-        </button>
-        <button className="px-6 py-2 rounded-full bg-[#B5D5E5] text-black hover:opacity-90 transition-opacity">
-          LF
-        </button>
+        <Lecbutt />
+        <Stabutt />
+        <Stubutt />
+        <Lfbutt />
       </div>
 
      
