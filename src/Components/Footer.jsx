@@ -1,21 +1,7 @@
 import React from "react";
-import Lecbutt from "./Lecbutt";
-import Stabutt from "./Stabutt";
-import Stubutt from "./Stubutt";
-import Lfbutt from "./Lfbutt";
-
-
-
-export default function Footer() {
+const Footer = () => {
   return (
     <footer className="w-full bg-slate-900 text-white px-4 py-6  ">
-      
-      <div className="flex flex-wrap gap-2 mb-6 justify-center">
-        <Lecbutt />
-        <Stabutt />
-        <Stubutt />
-        <Lfbutt />
-      </div>
 
      
       <div className="grid md:grid-cols-2 gap-8">
@@ -57,3 +43,4 @@ export default function Footer() {
   )
 }
 
+export default Footer

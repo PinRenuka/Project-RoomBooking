@@ -1,8 +1,5 @@
 import React from 'react'
 
-import { IoIosCheckmarkCircleOutline } from "react-icons/io";
-import { NavLink } from 'react-router';
-import BackTotable from '../components/BackTotable';
 const ReportsPage = () => {
   return (
     <>
@@ -15,7 +12,6 @@ const ReportsPage = () => {
         <div className='text-4xl'>Room Booking Success</div> <br />
         <div className='text-2xl'>Room have been Booking</div> <br />
         <div className='text-2xl'>you can check history in calender </div> <br />
-        <BackTotable/>
         </div>
         
         
