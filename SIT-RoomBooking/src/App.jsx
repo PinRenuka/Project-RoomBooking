@@ -1,13 +1,11 @@
 import React from 'react'
 import './App.css'
-import LXbuild from './Build/LXbuild'
-import Carender from './Build/Carender'
-
+import Build from './pages/Build'
 
 function App() {
   return (
     <>
-    <LXbuild/>
+    <Build/>
     
     </>
   )
