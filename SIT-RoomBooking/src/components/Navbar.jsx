@@ -20,7 +20,6 @@ const Navbar = () => {
         <input className='bg-white rounded-xl font-bold px-5' placeholder='Seach' type="search" name=" seach" id="seach" />
         <DropdownNavigation/><Dropfloor/><Droproom/>
 
-        
       </div>
       </div>
     </>
