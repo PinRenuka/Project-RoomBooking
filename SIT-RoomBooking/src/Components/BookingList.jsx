@@ -9,7 +9,7 @@ export default function BookingList({ bookings =[]}) {
 
         return (
           <div key={index} className="mb-2 last:mb-0">
-            <div className="bg-rose-500 text-white p-2 rounded">
+            <div className="bg-[#B8E5B5] text-white p-2 rounded">
               <h3 className="font-medium text-sm">{booking.booking_title}</h3>
               <p className="text-xs opacity-90">
                 {startTime} - {endTime}
