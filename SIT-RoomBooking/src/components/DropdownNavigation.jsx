@@ -15,9 +15,9 @@ const DropdownNavigation = () => {
   return (
     <select className='bg-fuchsia-900 rounded-xl px-3 font-bold' onChange={handleChange} defaultValue="">
       <option value="" disabled>Picking Room</option>
-      <option value="/home">CB2</option>
-      <option value="/history">LX Building</option>
-      <option value="/picking">SIT Building</option>
+      <option value="/buildingsit">CB2</option>
+      <option value="/buildingsit">LX Building</option>
+      <option value="/buildingsit">SIT Building</option>
     </select>
   );
 };

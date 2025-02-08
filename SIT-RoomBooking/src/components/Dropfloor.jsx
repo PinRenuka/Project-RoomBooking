@@ -15,9 +15,9 @@ const Dropfloor = () => {
   return (
     <select className='bg-fuchsia-900 rounded-xl px-3 font-bold' onChange={handleChange} defaultValue="">
       <option value="" disabled>Floor</option>
-      <option value="/home">10</option>
-      <option value="/history">11</option>
-      <option value="/picking">12</option>
+      <option value="/buildingsit">10</option>
+      <option value="/buildingsit">11</option>
+      <option value="/buildingsit">12</option>
     </select>
   );
 };
