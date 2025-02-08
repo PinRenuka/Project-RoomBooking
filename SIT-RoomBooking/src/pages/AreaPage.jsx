@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Area = () => {
+const AreaPage = () => {
   return (
     <></>
   )
 }
 
-export default Area
+export default AreaPage

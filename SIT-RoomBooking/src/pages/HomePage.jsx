@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-const Home = () => {
+const HomePage = () => {
   return (
    <>
     
@@ -14,7 +14,7 @@ const Home = () => {
       จองห้องคณะเทคโนโลยีสารสนเทศ SIT
     </div>
 
-    <div className='flex gap-60 pl-20 pr-8 pt-20'>
+    <div className='flex gap-80 pl-20 pr-8 pt-20'>
 
 
         <div className='bg-[url(./img/lx-bu.png)] pl-4 pb-5 pt-69 pr-80 rounded-xl font-bold text-2xl text-white'>
@@ -25,7 +25,7 @@ const Home = () => {
            Lx Building
         </div>
 
-        <div className='bg-[url(./img/cardsit.png)] pl-4 pb-5 pt-69 pr-62 rounded-xl font-bold text-2xl text-white'>
+        <div className='bg-[url(./img/cardsit.png)] pl-4 pb-4 pt-69 pr-58 rounded-xl font-bold text-2xl text-white'>
           SIT Building
         </div>
 
@@ -35,4 +35,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default HomePage

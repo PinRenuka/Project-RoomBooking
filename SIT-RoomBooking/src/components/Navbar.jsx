@@ -1,23 +1,25 @@
 import React from 'react'
 import { NavLink } from 'react-router'
+import { FaSearch } from "react-icons/fa";
+import DropdownNavigation from './DropdownNavigation';
 
 
 
 const Navbar = () => {
   return (
     <><div className='flex justify-between pt-2 pl-10 pr-10 bg-transparent'>
-      <div className=''>
+      <div className='bg-transparen'>
       <img src='./img/logo.png' width={250} height={50}  ></img>
       
       </div>
       <div className='flex gap-2'>
-      <NavLink to={'Home'}  className='pt-4.5'>Home</NavLink>
-      <NavLink to={'Help'} className='pt-4.5'>Help</NavLink>
-      <button className='bg-white  rounded-md text-gray-500  px-5 border-1  '>
+      <NavLink to={'/home'}  className='pt-4.5 font-bold'>Home</NavLink>
+      <NavLink to={'/help'} className='pt-4.5 font-bold'>Help</NavLink>
+      
+        <input className='bg-white rounded-xl font-bold px-5' placeholder='Seach' type="search" name=" seach" id="seach" />
+        <DropdownNavigation/>
         
-        Search
-        </button>
-      <button className='bg-blue-50 rounded-md text-black px-5'>Picking a room</button>
+        
       </div>
       </div>
     </>
