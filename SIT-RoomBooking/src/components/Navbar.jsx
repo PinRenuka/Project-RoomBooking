@@ -1,19 +1,14 @@
-import React from "react";
-import "./Navbar.css";
-
+import React from 'react'
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="logo" >
-        <img src="public/img/logo.png" width={250} height={50} alt="SIT Logo" /> SIT Room Booking
+    <>
+    <div className='flex justify-between pt-2 pl-10 pr-10 bg-transparent'>
+      <div className='bg-transparen'>
+      <img src='public/img/logo.png' width={250} height={50}  ></img>
       </div>
-      <div className="menu">
-        <button>Help</button>
-        <input type="text" placeholder="Search" />
-        <button className='bg-blue-50 rounded-md text-black px-5'>Picking a room</button>
       </div>
-    </nav>
-  );
-};
+    </>
+  )
+}
 
-export default Navbar;
+export default Navbar

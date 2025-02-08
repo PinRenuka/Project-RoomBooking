@@ -25,7 +25,7 @@ const Calendar = () => {
   }
  
   return (
-    <div className="max-w-sm mx-auto bg-white p-4 rounded-lg shadow">
+    <div className="max-w-sm  bg-white p-4 rounded-lg shadow">
       {/* Dropdown เลือกเดือน-ปี */}
       <div className="flex justify-between items-center mb-4">
         <select
