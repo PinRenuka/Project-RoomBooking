@@ -22,8 +22,7 @@ jobs:
 
       - name: Debug build output
         run: |
-          cd SIT-RoomBooking
-          ls -R ./dist
+          ls -R ./SIT-RoomBooking/dist
 
       - name: Upload Vite build artifact
         uses: actions/upload-artifact@v4
