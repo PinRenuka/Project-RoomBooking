@@ -16,19 +16,18 @@ jobs:
 
       - name: Install dependencies and build Vite project
         run: |
-          cd SIT-RoomBooking
           npm ci
           npm run build
 
       - name: Debug build output
         run: |
-          ls -R ./SIT-RoomBooking/dist
+          ls -R ./dist
 
       - name: Upload Vite build artifact
         uses: actions/upload-artifact@v4
         with:
           name: vite-build-artifact
-          path: ./SIT-RoomBooking/dist
+          path: ./dist
 
   deploy:
     name: Deploy To Preview Server
